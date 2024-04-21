@@ -11,7 +11,7 @@ namespace LicenceShop.Api.Controllers;
 [Route("[controller]")]
 public class OrderController : ApiControllerBase
 {
-    [Authorize(Roles = LicenceShopAuthorization.Customer)]
+    // [Authorize(Roles = LicenceShopAuthorization.Customer)]
     [HttpGet("GetOrdersPageable")]
     public async Task<ActionResult<OrderPageableDto>> GetOrdersPageable([FromQuery] GetOrderPageableQuery query) =>
         Ok(await Mediator.Send(query));

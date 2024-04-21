@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LicenceShop.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+360b374ab66a35b5bab6a29623e9fb7e5c31e7ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a69bc0011d1be4f2c3fae68458b545cb29cfcc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LicenceShop.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LicenceShop.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -26,8 +26,9 @@ public class MappingProfile : Profile
              order.TotalPrice, 
              order.Status,
              new OrderInfoDto(
-                 order.Licences.Select(x => x.Name), 
-                 new List<string>(order.Licences.Select(x => x.Name).ToList()))
+                 order.Customer.Licences.Select(x => x.Name), 
+                 order.Licences.Select(x => x.Owner.Email)
+                 )
              );
     }
     
