@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f7pFZEwtiV37gAwPv5d3wN4BEvnUAGbdFBQk6q6Dr/PwfZkHyJa2Juv3BBz+C9UUVLeDYZtcQsLiuip0R4VZtg==",
+  "dgSpecHash": "esKn/696JmoGMnMdSUqgG8boafXH4ioewW1vDp2/lhAjObfALP604SmD6MUexE7Ziz27uhKLNTdkos7Q3qp94A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.UnitTests\\LicenceShop.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.UnitTests\\LicenceShop.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DzOnZi\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\3.1.2\\aspnetcore.identity.mongodbcore.3.1.2.nupkg.sha512",
     "C:\\Users\\DzOnZi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -173,7 +173,10 @@
     "C:\\Users\\DzOnZi\\.nuget\\packages\\xunit.core\\2.5.3\\xunit.core.2.5.3.nupkg.sha512",
     "C:\\Users\\DzOnZi\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
     "C:\\Users\\DzOnZi\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
-    "C:\\Users\\DzOnZi\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
   ],
   "logs": []
 }

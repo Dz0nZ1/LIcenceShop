@@ -37,7 +37,7 @@ public record CreateLicenceCommandHandler : IRequestHandler<CreateLicenceCommand
             throw new Exception("Category not found");
         }
         
-        var type = await DB.Find<Domain.Entities.LicenceType>().OneAsync(request.Licence.TypeId, cancellationToken);
+        var type = await DB.Find<Domain.Entities.LicenceType>().OneAsync(request.Licence.LicenceTypeId, cancellationToken);
 
         if (type == null)
         {
@@ -49,6 +49,11 @@ public record CreateLicenceCommandHandler : IRequestHandler<CreateLicenceCommand
         {
             throw new Exception("User not found");
         }
+        
+        await vendor.SaveAsync(cancellation: cancellationToken);
+        await category.SaveAsync(cancellation: cancellationToken);
+        await type.SaveAsync(cancellation: cancellationToken);
+        await user.SaveAsync(cancellation: cancellationToken);
         
         
         var data = new Domain.Entities.Licence()

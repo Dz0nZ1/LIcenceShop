@@ -8590,35 +8590,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DzOnZi\\.nuget\\packages\\": {}
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.BaseTests\\LicenceShop.BaseTests.csproj",
+      "projectUniqueName": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.BaseTests\\LicenceShop.BaseTests.csproj",
       "projectName": "LicenceShop.BaseTests",
-      "projectPath": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.BaseTests\\LicenceShop.BaseTests.csproj",
+      "projectPath": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.BaseTests\\LicenceShop.BaseTests.csproj",
       "packagesPath": "C:\\Users\\DzOnZi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.BaseTests\\obj\\",
+      "outputPath": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.BaseTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\DzOnZi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DzOnZi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.Api\\LicenceShop.Api.csproj": {
-              "projectPath": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.Api\\LicenceShop.Api.csproj"
+            "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.Api\\LicenceShop.Api.csproj": {
+              "projectPath": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.Api\\LicenceShop.Api.csproj"
             },
-            "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.Application\\LicenceShop.Application.csproj": {
-              "projectPath": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.Application\\LicenceShop.Application.csproj"
+            "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.Application\\LicenceShop.Application.csproj": {
+              "projectPath": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.Application\\LicenceShop.Application.csproj"
             }
           }
         }
@@ -8657,12 +8664,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

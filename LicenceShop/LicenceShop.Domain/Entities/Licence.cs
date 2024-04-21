@@ -59,6 +59,24 @@ public class Licence : BaseEntity
         Owner = owner;
         return this;
     }
+
+    public Licence AddVendor(One<Vendor> vendor)
+    {
+        Vendor = vendor;
+        return this;
+    }
+    
+    public Licence AddCategory(One<Category> category)
+    {
+        Category = category;
+        return this;
+    }
+    
+    public Licence AddType(One<LicenceType> type)
+    {
+        Type = type;
+        return this;
+    }
     
 
     #endregion

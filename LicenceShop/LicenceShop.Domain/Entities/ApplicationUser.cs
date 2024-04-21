@@ -50,7 +50,7 @@ public class ApplicationUser : MongoIdentityUser<ObjectId>, IModifiedOn, IEntity
     public DateTime ModifiedOn { get; set; }
     public string GenerateNewID()
     {
-        throw new NotImplementedException();
+        return Guid.NewGuid().ToString();
     }
     
     public string? ID { get; set; }

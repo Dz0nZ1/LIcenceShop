@@ -21,7 +21,7 @@ public class CreateLicenceDtoValidator : AbstractValidator<CreateLicenceDto>
             .NotEmpty();
         RuleFor(x => x.CategoryId)
             .NotEmpty();
-        RuleFor(x => x.TypeId)
+        RuleFor(x => x.LicenceTypeId)
             .NotEmpty();
         RuleFor(x => x.OwnerId)
             .NotEmpty();

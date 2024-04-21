@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "idbFa81ikL4g67YVdI+8P1eEFj5KkObVJLCN2kuRxGiN2XjPAgOfJUVl0Tfy1+2QQOxPALDjDTRHvHUzjXpN1A==",
+  "dgSpecHash": "ns5HyTRMXneXGt1LUkAhgI5bPH9nWSMrT8j+PW/ucmQCMgJEswK+zye31xPA4PgJ1XCSDpU4dYmEfd2EILUZuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DzOnZi\\RiderProjects\\LicenceShop\\LicenceShop\\LicenceShop.Api\\LicenceShop.Api.csproj",
+  "projectFilePath": "C:\\Users\\DzOnZi\\Desktop\\LicenceShop\\LicenceShop\\LicenceShop.Api\\LicenceShop.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DzOnZi\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\3.1.2\\aspnetcore.identity.mongodbcore.3.1.2.nupkg.sha512",
     "C:\\Users\\DzOnZi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -60,7 +60,11 @@
     "C:\\Users\\DzOnZi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\DzOnZi\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\DzOnZi\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\DzOnZi\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\DzOnZi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
   ],
   "logs": []
 }

@@ -34,3 +34,16 @@ C:\Users\DzOnZi\RiderProjects\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Deb
 C:\Users\DzOnZi\RiderProjects\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\refint\LicenceShop.Domain.dll
 C:\Users\DzOnZi\RiderProjects\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.pdb
 C:\Users\DzOnZi\RiderProjects\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\ref\LicenceShop.Domain.dll
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\bin\Debug\net7.0\LicenceShop.Domain.deps.json
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\bin\Debug\net7.0\LicenceShop.Domain.dll
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\bin\Debug\net7.0\LicenceShop.Domain.pdb
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.csproj.AssemblyReference.cache
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.AssemblyInfoInputs.cache
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.AssemblyInfo.cs
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.sourcelink.json
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.dll
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\refint\LicenceShop.Domain.dll
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\LicenceShop.Domain.pdb
+C:\Users\DzOnZi\Desktop\LicenceShop\LicenceShop\LicenceShop.Domain\obj\Debug\net7.0\ref\LicenceShop.Domain.dll
