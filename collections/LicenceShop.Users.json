@@ -1,0 +1,259 @@
+[{
+  "_id": {
+    "$oid": "6624ca16d42da46ac8ee5d43"
+  },
+  "UserName": "dusan@email.com",
+  "NormalizedUserName": "DUSAN@EMAIL.COM",
+  "Email": "dusan@email.com",
+  "NormalizedEmail": "DUSAN@EMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": null,
+  "SecurityStamp": "RKFSVXBACDJB4QSH5S5V27HHA62DCV2J",
+  "ConcurrencyStamp": "19cc7d9d-cea9-403f-80fb-7f93092bda1f",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": "2024-04-21T08:11:02.042Z"
+  },
+  "Claims": [
+    {
+      "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+      "Value": "dusan@email.com",
+      "Issuer": null
+    },
+    {
+      "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+      "Value": "Marketer",
+      "Issuer": null
+    }
+  ],
+  "Roles": [
+    {
+      "$oid": "653d88206ee5d2279b0b3d47"
+    }
+  ],
+  "Logins": [],
+  "Tokens": [],
+  "first_name": "Dusan",
+  "last_name": "Dusanovic",
+  "balance": 132000,
+  "licences": [],
+  "UserRoles": [
+    "Marketer"
+  ],
+  "ModifiedOn": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "ID": null
+},
+{
+  "_id": {
+    "$oid": "66256b91616c10ef3f9b5d6a"
+  },
+  "UserName": "nikola@email.com",
+  "NormalizedUserName": "NIKOLA@EMAIL.COM",
+  "Email": "nikola@email.com",
+  "NormalizedEmail": "NIKOLA@EMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": null,
+  "SecurityStamp": "CUYI6RTZSOL4ZAWA6EUEAGYKGEZXZSJZ",
+  "ConcurrencyStamp": "8cb885f8-9ebb-48d2-8224-6b34f8eacfe4",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": "2024-04-21T19:40:01.105Z"
+  },
+  "Claims": [
+    {
+      "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+      "Value": "nikola@email.com",
+      "Issuer": null
+    },
+    {
+      "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+      "Value": "Customer",
+      "Issuer": null
+    }
+  ],
+  "Roles": [
+    {
+      "$oid": "653d82466ee5d2279b0b3d37"
+    }
+  ],
+  "Logins": [],
+  "Tokens": [],
+  "first_name": "Nikola",
+  "last_name": "Lelekovic",
+  "balance": 68000,
+  "licences": [
+    {
+      "_id": {
+        "$oid": "66256c45616c10ef3f9b5d72"
+      },
+      "created_on": {
+        "$date": "2024-04-21T19:43:01.164Z"
+      },
+      "modified_on": {
+        "$date": "2024-04-21T19:43:01.164Z"
+      },
+      "active": true,
+      "name": "Microsoft Windows 11",
+      "start_date": {
+        "$date": "2024-04-21T19:31:40.400Z"
+      },
+      "end_date": {
+        "$date": "2024-04-21T19:31:40.400Z"
+      },
+      "vendor": {
+        "ID": {
+          "$oid": "66256944ad6d898e19ac94c2"
+        }
+      },
+      "category": {
+        "ID": {
+          "$oid": "66256becad6d898e19ac94d8"
+        }
+      },
+      "type": {
+        "ID": {
+          "$oid": "6624cc98d42da46ac8ee5d4f"
+        }
+      },
+      "owner": {
+        "_id": {
+          "$oid": "6624ca16d42da46ac8ee5d43"
+        },
+        "UserName": "dusan@email.com",
+        "NormalizedUserName": "DUSAN@EMAIL.COM",
+        "Email": "dusan@email.com",
+        "NormalizedEmail": "DUSAN@EMAIL.COM",
+        "EmailConfirmed": false,
+        "PasswordHash": null,
+        "SecurityStamp": "RKFSVXBACDJB4QSH5S5V27HHA62DCV2J",
+        "ConcurrencyStamp": "47dd12bb-c75b-4cba-b3c3-34ea96fc9e06",
+        "PhoneNumber": null,
+        "PhoneNumberConfirmed": false,
+        "TwoFactorEnabled": false,
+        "LockoutEnd": null,
+        "LockoutEnabled": true,
+        "AccessFailedCount": 0,
+        "Version": 1,
+        "CreatedOn": {
+          "$date": "2024-04-21T08:11:02.042Z"
+        },
+        "Claims": [
+          {
+            "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+            "Value": "dusan@email.com",
+            "Issuer": null
+          },
+          {
+            "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+            "Value": "Marketer",
+            "Issuer": null
+          }
+        ],
+        "Roles": [
+          {
+            "$oid": "653d88206ee5d2279b0b3d47"
+          }
+        ],
+        "Logins": [],
+        "Tokens": [],
+        "first_name": "Dusan",
+        "last_name": "Dusanovic",
+        "balance": 100000,
+        "licences": [],
+        "UserRoles": [
+          "Marketer"
+        ],
+        "ModifiedOn": {
+          "$date": {
+            "$numberLong": "-62135596800000"
+          }
+        },
+        "ID": null
+      },
+      "sold": false,
+      "price": 32000,
+      "img": "string",
+      "description": "string"
+    }
+  ],
+  "UserRoles": [
+    "Customer"
+  ],
+  "ModifiedOn": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "ID": null
+},
+{
+  "_id": {
+    "$oid": "66256d1c616c10ef3f9b5d79"
+  },
+  "UserName": "marko@email.com",
+  "NormalizedUserName": "MARKO@EMAIL.COM",
+  "Email": "marko@email.com",
+  "NormalizedEmail": "MARKO@EMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": null,
+  "SecurityStamp": "UPMRQELB4T3UFPGRBHW4KZOY3GOCQ34Y",
+  "ConcurrencyStamp": "f6f92b56-914b-4445-ae13-a35fd0a5879a",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": "2024-04-21T19:46:36.818Z"
+  },
+  "Claims": [
+    {
+      "Type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+      "Value": "marko@email.com",
+      "Issuer": null
+    },
+    {
+      "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+      "Value": "Customer",
+      "Issuer": null
+    }
+  ],
+  "Roles": [
+    {
+      "$oid": "653d82466ee5d2279b0b3d37"
+    }
+  ],
+  "Logins": [],
+  "Tokens": [],
+  "first_name": "Marko",
+  "last_name": "Markovic",
+  "balance": 100000,
+  "licences": [],
+  "UserRoles": [
+    "Customer"
+  ],
+  "ModifiedOn": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  },
+  "ID": null
+}]

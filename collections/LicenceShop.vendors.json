@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "66256944ad6d898e19ac94c2"
+  },
+  "created_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T19:43:01.140Z"
+  },
+  "active": true,
+  "name": "Microsoft"
+},
+{
+  "_id": {
+    "$oid": "66256969ad6d898e19ac94c3"
+  },
+  "created_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "active": true,
+  "name": "Avast"
+},
+{
+  "_id": {
+    "$oid": "662569fbad6d898e19ac94c6"
+  },
+  "created_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T19:40:35.881Z"
+  },
+  "active": true,
+  "name": "RedHat"
+}]

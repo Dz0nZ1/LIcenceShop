@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "FDmPWCMgR6q53x7bFUsr3Q==",
+      "subType": "04"
+    }
+  },
+  "Name": "Customer1",
+  "NormalizedName": "CUSTOMER1",
+  "ConcurrencyStamp": "adec2d04-98d5-4f89-af72-c3093d2ddf6a",
+  "Version": 1,
+  "Claims": []
+},
+{
+  "_id": {
+    "$binary": {
+      "base64": "BCRrNi1uSO6IcKj97HOZSg==",
+      "subType": "04"
+    }
+  },
+  "Name": "Administrator",
+  "NormalizedName": "ADMINISTRATOR",
+  "ConcurrencyStamp": "3d6768be-8cd2-4c5b-bdc8-a2751610f39b",
+  "Version": 1,
+  "Claims": []
+},
+{
+  "_id": {
+    "$binary": {
+      "base64": "BCRrNi1uSO6IcKj97HOZOg==",
+      "subType": "04"
+    }
+  },
+  "Name": "Super administrator",
+  "NormalizedName": "SUPER ADMINISTRATOR",
+  "ConcurrencyStamp": "3d6768be-8cd2-4c5b-bdc8-a2751610f39b",
+  "Version": 1,
+  "Claims": []
+},
+{
+  "_id": {
+    "$binary": {
+      "base64": "BCRrNi1uSO6IcKj97HOUOg==",
+      "subType": "04"
+    }
+  },
+  "Name": "Marketer1",
+  "NormalizedName": "MARKETER1",
+  "ConcurrencyStamp": "3d6768be-8cd2-4c5b-bdc8-a2751610f39b",
+  "Version": 1,
+  "Claims": []
+},
+{
+  "_id": {
+    "$oid": "653d82466ee5d2279b0b3d37"
+  },
+  "Name": "Customer",
+  "NormalizedName": "CUSTOMER",
+  "ConcurrencyStamp": "adec2d04-98d5-4f79-af72-c3093d2ddf6i",
+  "Version": 1,
+  "Claims": []
+},
+{
+  "_id": {
+    "$oid": "653d88206ee5d2279b0b3d47"
+  },
+  "Name": "Marketer",
+  "NormalizedName": "MARKETER",
+  "ConcurrencyStamp": "adec2d04-98d5-4f19-af72-c4093d2ddf6l",
+  "Version": 1,
+  "Claims": []
+}]
