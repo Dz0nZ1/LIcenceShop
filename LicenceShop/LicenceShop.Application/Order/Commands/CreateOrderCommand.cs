@@ -59,11 +59,11 @@ public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, str
 
         foreach (var licence in licences)
         {
-            // if (licence.Owner.Email == null) continue;
-            // var seller = await _userService.GetUserByEmailAsync(licence.Owner.Email);
-            // if (seller == null) continue;
-            // seller.Balance += licence.Price;
-            // await _userService.UpdateUserAsync(seller);
+            if (licence.Owner.Email == null) continue;
+            var seller = await _userService.GetUserByEmailAsync(licence.Owner.Email);
+            if (seller == null) continue;
+            seller.Balance += licence.Price;
+            await _userService.UpdateUserAsync(seller);
         }
         
 

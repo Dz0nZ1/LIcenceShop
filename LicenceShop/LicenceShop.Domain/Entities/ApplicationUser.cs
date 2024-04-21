@@ -10,6 +10,7 @@ namespace LicenceShop.Domain.Entities;
 [CollectionName("Users")]
 public class ApplicationUser : MongoIdentityUser<ObjectId>, IModifiedOn, IEntity
 {
+    private IEntity _entityImplementation;
 
     #region Properties
     
@@ -48,10 +49,11 @@ public class ApplicationUser : MongoIdentityUser<ObjectId>, IModifiedOn, IEntity
     #endregion
 
     public DateTime ModifiedOn { get; set; }
+
     public string GenerateNewID()
     {
         return Guid.NewGuid().ToString();
     }
-    
+
     public string? ID { get; set; }
 }

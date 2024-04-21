@@ -53,8 +53,6 @@ public record CreateLicenceCommandHandler : IRequestHandler<CreateLicenceCommand
         await vendor.SaveAsync(cancellation: cancellationToken);
         await category.SaveAsync(cancellation: cancellationToken);
         await type.SaveAsync(cancellation: cancellationToken);
-        await user.SaveAsync(cancellation: cancellationToken);
-        
         
         var data = new Domain.Entities.Licence()
         {
@@ -64,7 +62,7 @@ public record CreateLicenceCommandHandler : IRequestHandler<CreateLicenceCommand
             Vendor = new One<Domain.Entities.Vendor>(vendor),
             Type = new One<Domain.Entities.LicenceType>(type),
             Category = new One<Domain.Entities.Category>(category),
-            Owner = new One<ApplicationUser>(user),
+            Owner = user,
             IsSold = request.Licence.IsSold,
             Price = request.Licence.Price,
             Active = true,

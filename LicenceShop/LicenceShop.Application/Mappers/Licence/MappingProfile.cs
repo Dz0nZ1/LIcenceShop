@@ -26,7 +26,7 @@ public class MappingProfile : Profile
                 (await licence.Vendor.ToEntityAsync())!.Name,
                 (await licence.Category.ToEntityAsync())!.Name,
                 (await licence.Type.ToEntityAsync())!.Name,
-                ((await licence.Owner.ToEntityAsync())!).Email,
+                licence.Owner.Email,
                 licence.IsSold,
                 licence.Price,
                 licence.Img,

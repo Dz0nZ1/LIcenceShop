@@ -27,7 +27,7 @@ public class Licence : BaseEntity
     public One<LicenceType> Type { get; set; }
     
     [Field("owner")]
-    public One<ApplicationUser> Owner { get; set; }
+    public ApplicationUser Owner { get; set; }
     
     [Field("sold")]
     public bool IsSold { get; set; }
@@ -54,11 +54,11 @@ public class Licence : BaseEntity
 
     #region Methods
 
-    public Licence AddOwner(One<ApplicationUser> owner)
-    {
-        Owner = owner;
-        return this;
-    }
+    // public Licence AddOwner(One<ApplicationUser> owner)
+    // {
+    //     Owner = owner;
+    //     return this;
+    // }
 
     public Licence AddVendor(One<Vendor> vendor)
     {
