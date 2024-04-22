@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "66256b05ad6d898e19ac94d1"
+  },
+  "created_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "active": true,
+  "name": "CyberSecurity"
+},
+{
+  "_id": {
+    "$oid": "66256b3aad6d898e19ac94d2"
+  },
+  "created_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T19:40:35.883Z"
+  },
+  "active": true,
+  "name": "Antivirus"
+},
+{
+  "_id": {
+    "$oid": "66256becad6d898e19ac94d8"
+  },
+  "created_on": {
+    "$date": "2024-04-21T10:04:37.889Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T19:43:01.145Z"
+  },
+  "active": true,
+  "name": "OS"
+}]

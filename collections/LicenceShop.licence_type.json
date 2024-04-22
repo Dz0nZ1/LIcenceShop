@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "6624cc87d42da46ac8ee5d4d"
+  },
+  "created_on": {
+    "$date": "2024-04-21T08:21:27.882Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T10:03:05.995Z"
+  },
+  "active": true,
+  "name": "Student"
+},
+{
+  "_id": {
+    "$oid": "6624cc92d42da46ac8ee5d4e"
+  },
+  "created_on": {
+    "$date": "2024-04-21T08:21:38.196Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T19:40:35.884Z"
+  },
+  "active": true,
+  "name": "Premium"
+},
+{
+  "_id": {
+    "$oid": "6624cc98d42da46ac8ee5d4f"
+  },
+  "created_on": {
+    "$date": "2024-04-21T08:21:44.738Z"
+  },
+  "modified_on": {
+    "$date": "2024-04-21T19:43:01.162Z"
+  },
+  "active": true,
+  "name": "Starter"
+}]
